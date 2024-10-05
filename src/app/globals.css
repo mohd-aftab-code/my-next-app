@@ -25,3 +25,24 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Global CSS or within a specific CSS module */
+/* Global CSS or within a specific CSS module */
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-marquee {
+  animation: marquee 60s linear infinite; /* Adjust the duration for speed */
+  /* Use a larger duration for slower scrolling */
+}
+
+/* CSS for Mobile Menu Transition */
+.md\\:hidden .open {
+  transform: rotate(90deg); /* Example of a visual indicator */
+  transition: transform 0.2s ease-in-out; /* Transition for smoothness */
+}
+
+
+
